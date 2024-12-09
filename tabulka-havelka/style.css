@@ -1,84 +1,84 @@
-
 table {
-    border: 2px solid black;
-    text-align: center;
+    border: 0px solid;
     border-collapse: collapse; 
-  }
+    text-align: center;
+    margin: 0px auto;
 
-tr{
-    border: 0px solid black;
-    width:50px;
-    height:75px
-    
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align:left;
+    margin-bottom: 10px;
+}
+
+td {
+    border: 1px solid black; 
+    width: 60px; 
+    height: 60px; 
+    padding: 0; 
+    margin: 0;
 }
 
 th{
-    border: 0px;
+    width: 60px; 
+    height: 60px; 
 }
-
-.cisla{
-    font-size: larger;
-}
-
-.empty{
+.empty {
     visibility: hidden;
+    border: 0px solid black; 
 }
 
-.alkalickekovy{
-    border: 1px solid black;
-    background-color: rgb(250, 87, 87);
-    width: 50px;
-    height: 75px;
+.empty2 {
+    border: 0px solid black;
 }
 
-.kovyalkalickychzemin{
-    border: 1px solid black;
-    background-color: rgb(255, 184, 4);
-    width: 50px;
-    height: 75px;
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.prechodnekovy{
-    border: 1px solid black;
-    background-color: plum;
-    width: 50px;
-    height: 75px;
-}
-
-.kovy{
-    border: 1px solid black;
+.kovy {
     background-color: cornflowerblue;
-    width: 50px;
-    height: 75px;
 }
 
-.polokovy{
-    border: 1px solid black;
-    background-color: rgb(101, 255, 255);
-    width: 50px;
-    height: 75px;
+.alkakovy {
+    background-color: rgb(240, 91, 91);
 }
 
-.nekovy{
-    border: 1px solid black;
-    background-color: greenyellow;
-    width: 50px;
-    height: 75px;
+.alkazeminkovy {
+    background-color: orange;
 }
 
-.halogeny{
-    border: 1px solid black;
-    background-color: rgb(0, 153, 255);
-    width: 50px;
-    height: 75px;
+.prechkovy {
+    background-color: plum;
 }
 
-.vzacneplyny{
-    border: 1px solid black;
+.polokovy {
+    background-color: rgb(152, 255, 250);
+}
+
+.nekovy {
+    background-color: rgb(113, 255, 47);
+}
+
+.halogeny {
+    background-color: rgb(0, 140, 255);
+}
+
+.vzacneplyny {
     background-color: yellow;
-    width: 50px;
-    height: 75px;
 }
+
+.stred {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
 
 
 
@@ -87,49 +87,49 @@ th{
 
 
 .alkalickekovynahore{
-    background-color: rgb(250, 87, 87);
-    width:50px;
-    height:75px
+    background-color: rgb(240, 91, 91);
+    font-size: small;
+    border: 1px white;
 }
 
 .kovyalkalickychzeminnahore{
-    background-color: rgb(255, 184, 4);
-    width:50px;
-    height:75px
+    background-color: orange;
+    font-size: small;
+    border: 1px white;
 }
 
 .prechodnekovynahore{
     background-color: plum;
-    width:50px;
-    height:75px
+    font-size: small;
+    border: 1px white;
 }
 
 .kovynahore{
     background-color: cornflowerblue;
-    width:50px;
-    height:75px
+    font-size: small;
+    border: 1px white;
 }
 
 .polokovynahore{
-    background-color: rgb(101, 255, 255);
-    width:50px;
-    height:75px
+    background-color: rgb(152, 255, 250);
+    font-size: small;
+    border: 1px white;
 }
 
 .nekovynahore{
-    background-color: greenyellow;
-    width:50px;
-    height:75px
+    background-color: rgb(113, 255, 47);
+    font-size: small;
+    border: 1px white;
 }
 
 .halogenynahore{
-    background-color: rgb(0, 153, 255);
-    width:50px;
-    height:75px
-}   
+    background-color: rgb(0, 140, 255);
+    font-size: small;
+    border: 1px white;
+}
 
 .vzacneplynynahore{
     background-color: yellow;
-    width:50px;
-    height:75px
+    font-size: small;
+    border: 1px white;
 }
