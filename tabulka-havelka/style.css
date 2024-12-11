@@ -3,6 +3,7 @@ table {
     border-collapse: collapse; 
     text-align: center;
     margin: 0px auto;
+    
 
 }
 
@@ -67,7 +68,7 @@ body {
 }
 
 .halogeny {
-    background-color: rgb(0, 140, 255);
+    background-color: rgb(0, 183, 255);
 }
 
 .vzacneplyny {
@@ -92,8 +93,10 @@ body {
         color: rgb(151, 151, 151);
 }
 
-
-
+.vedle{
+    font-weight: normal;
+    font-size: small;
+}
 
 
 
@@ -137,7 +140,7 @@ body {
 }
 
 .halogenynahore{
-    background-color: rgb(0, 140, 255);
+    background-color: rgb(0, 183, 255);
     border: 1px white;
     font-weight: normal;
 }
